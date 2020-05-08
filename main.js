@@ -121,7 +121,7 @@ right.addEventListener("click", () => {
   else{
     image++;
   }
-lightbox.style.background = `url('/galeryIMG/${image}.jpeg') center`;
+lightbox.style.background = `url('./galeryIMG/${image}.jpeg') center`;
 lightbox.style.backgroundSize = "cover";
 descImage.innerHTML = desc[image];
 });
