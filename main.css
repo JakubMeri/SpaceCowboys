@@ -600,6 +600,17 @@ footer p:nth-child(1){
 .navigation{
     display: none;
 }
+@media (max-width: 1300px){
+    .galery{
+        width: auto;
+        grid-template-columns: repeat(6, 150px);
+        grid-gap: 20px;
+        }
+    .galery img{
+        width: 150px;
+        height: 150px;
+    }
+}
 @media (max-width: 500px){
     nav{
         width: 100vw;
