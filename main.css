@@ -427,6 +427,7 @@ grid-column: 3;
     width: 200px;
     height: 200px;
     transition: .3s;
+    cursor: pointer;
 }
 .galery img:hover{
     transform: scale(1.1);
@@ -829,7 +830,6 @@ footer p:nth-child(1){
     .galery img{
         width: 100px;
         height: 100px;
-        cursor: pointer;
     }
     #contact{
         height: 100%;
