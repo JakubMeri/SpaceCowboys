@@ -810,15 +810,33 @@ footer p:nth-child(1){
     }
     .lightbox{
         height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .right, .left, .close{
         color: white;
-        border: white 2px solid;
+        border: none;
+        padding: 10px 15px;
+    }
+    .close{
+        border: solid 2px grey;
+    }
+    .right, .left{
+        top: 55%;
+    }
+    .right{
+        right: 0;
+    }
+    .left{
+        left: 0;
     }
     .right:hover, .left:hover, .close:hover{
         color: white;
         background: transparent;
-    
+    }
+    .popis{
+        width: auto;
     }
     .galery{
         height: 100%;
@@ -881,6 +899,23 @@ footer p:nth-child(1){
     }
 }
 @media (max-width: 320px){
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .slideLeft, .slideRight{
+        padding: 2px 9px;
+        margin: 0 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .landingPage{
+        width: 100vw !important;
+    }
+    section{
+        width: 100%;
+    }
     .boxes{
         width: 270px;
     }
