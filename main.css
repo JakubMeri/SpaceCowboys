@@ -829,6 +829,7 @@ footer p:nth-child(1){
     .galery img{
         width: 100px;
         height: 100px;
+        cursor: pointer;
     }
     #contact{
         height: 100%;
